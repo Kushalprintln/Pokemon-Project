@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+.fireh {
+	margin: 0px auto;
+	width: 80%;
+	max-width: 1000px;
+	height: 180px;
+  /* font-size: 100px;
+	line-height: 50px; */
+	background-position: center center;
+	background-size: 1000px 200px;
+	border-radius: 10px;
+	font-family: 'Akronim';
+	overflow: hidden;
+    text-align: center;
+	vertical-align: middle;
+	/* border: 2px solid; */
+}
+.fireh:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.fireh h1{
+    font-size: 100px;
+    line-height: 50px;
+}
+
+/* FOUR LEVEL RESPONSIVE */
+@media screen and (max-width: 850px) {
+	.fireh{
+		height: 160px;
+	}
+	.fireh h1{
+		font-size: 80px;
+    	line-height: 40px;
+	}
+}
+@media screen and (max-width: 690px) {
+	.fireh{
+		height: 120px;
+	}
+	.fireh h1{
+		font-size: 60px;
+    	line-height: 30px;
+	}
+}
+@media screen and (max-width: 525px) {
+	.fireh{
+		height: 100px;
+	}
+	.fireh h1{
+		font-size: 50px;
+    	line-height: 30px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.fireh{
+		height: 140px;
+	}
+	.fireh h1{
+		font-size: 50px;
+    	line-height: 50px;
+		letter-spacing: 10px;
+	}
+}

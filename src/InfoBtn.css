@@ -1,0 +1,52 @@
+.btngrad {
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    /* color: white;             */
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+button.grass{
+	background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%);
+}
+button.water{
+	background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+}
+button.normal{
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+
+}
+button.poison{
+	/* background-image: linear-gradient(to right, #6441A5 0%, #2a0845  51%, #6441A5  100%); */
+	color: white;
+	background-image: linear-gradient(to right, #ff00cc 0%, #333399  51%, #ff00cc  100%);
+	/* background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%); */
+}
+  
+button.bug{
+	background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%);
+	color: white;
+}
+button.electric{  
+	background-image: linear-gradient(to right, #F2994A 0%, #F2C94C  51%, #F2994A  100%);	 
+}
+button.fire{  
+	background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+	color: white;
+}
+button.ground{  
+	background-image: linear-gradient(to right, #00c3ff 0%, #ffff1c  51%, #00c3ff  100%);
+}
+button.fairy{  
+	background-image: linear-gradient(to right, #EECDA3 0%, #EF629F  51%, #EECDA3  100%);
+}
+/* HOVER STYLE ON BTN */
+.btngrad:hover {
+background-position: right center; /* change the direction of the change here */
+/* color: #fff; */
+text-decoration: none;
+}

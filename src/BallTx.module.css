@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+.balltxt{
+    font-family: 'Sigmar', sans-serif;
+    color: red;
+    text-shadow: 2px 0 #fff, 
+    -2px 0 #fff, 
+    0 2px #fff, 
+    0 -2px #fff,
+    1px 1px #fff, 
+    -1px -1px #fff, 
+    1px -1px #fff, 
+    -1px 1px #fff;
+}

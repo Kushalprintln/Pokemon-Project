@@ -1,0 +1,94 @@
+.card {
+	width: 260px;
+	height: 350px;
+	background: linear-gradient(#fcdf8a, #f38381);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	flex-direction: column;
+	/* border: 3px solid black; */
+}
+.grass{
+	background: linear-gradient(#b1ea4d, #459522);
+}
+.water{
+	background: linear-gradient(#0FF0B3, #036ED9);
+}
+.fire{
+	background: linear-gradient(#f2d50f, #da0641);
+}
+.bug{
+	background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+}
+.poison{
+	/* background: linear-gradient(#C56CD6, #3425AF); */
+	background: linear-gradient(#FF57B9, #A704FD);
+}
+.electric{
+	background: linear-gradient(135deg, #ffa8a8, #fcff00);
+}
+.ground{
+	background: linear-gradient(135deg, #f0ff00, #58cffb);
+}
+.fairy{
+	background: linear-gradient(135deg, #ffdada, #ff776a);
+}
+.normal{
+	background: linear-gradient(#fcdf8a, #f38381);
+}
+.card .content {
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+	/* border: 2px solid black; */
+}
+
+.card:hover .content {
+	transform: translateY(-20px);
+}
+
+.pokimg{
+	width:50% ;
+}
+
+.card .content h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+    /* color: black; */
+}
+.card .content h3 span {
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.card .sci {
+	display: flex;
+	position: absolute;
+	bottom: 50px;
+}
+
+.card .sci {
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.card:hover .sci {
+	transform: translateY(30px);
+	opacity: 1;
+}
+
+
