@@ -1,6 +1,7 @@
 import DetailStrip from './DetailStrip';
 import './Modal.css';
 import TypeWrite from './Typewrite';
+import img from './Images/pokedex.png'
 function Modal({dd,fun}){
     // console.log(dd);
     // EXTRACTING STAT OBJ ARRAY
@@ -30,7 +31,7 @@ function Modal({dd,fun}){
         </div>
         <div className="modalcontainer">
             <div className="modal">
-                <img className="pkdx" src='http://drive.google.com/uc?export=view&id=1PcEJalIHMu0NZq86D-dEHnGeeXy0-Rc-' alt=""/>
+                <img className="pkdx" src={img} alt=""/>
                 <button className="close" onClick={fun}>X</button>
                 <div className={`info ${dd.type}`}>
                     <TypeWrite txt={dd.name}/>

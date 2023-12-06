@@ -50,6 +50,7 @@
 .modal{
     margin: 5% auto;
     width: 350px;
+    height: 597px;
     min-width: 350px;
     position: relative;
     z-index: 200;

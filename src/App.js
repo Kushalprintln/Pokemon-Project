@@ -7,6 +7,7 @@ import FireHeading from './FireHeading';
 import BallMainHeading from './BallMainHeading';
 import Modal from './Modal';
 
+
 function App() {
   // THEME UPDATE;
   const bgImage = {
